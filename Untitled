@@ -1,0 +1,10 @@
+ document.getElementById("btnAnteriorCidade").addEventListener("click", function(){
+        window.location.href = 'estado.html';
+    });
+    
+	document.getElementById("btnAnteriorHemo").addEventListener("click", function(){
+        window.location.href = 'cidade.html';
+    });
+	document.getElementById("btnProximoHemo").addEventListener("click", function(){
+        window.location.href = 'escolha.html';
+    });
